@@ -1,8 +1,27 @@
 aid: plume
 name: Plume
-description: 'Plume is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Plume Design, Inc. is a SaaS platform for internet service providers,
+  delivering managed WiFi, network intelligence, and cyber-security services to
+  ISP subscribers at global scale. Its product suite includes Haystack (network
+  intelligence and observability), Plume Home (residential WiFi and cyber
+  protection), WorkPass (small-business connectivity), Uprise (multi-dwelling-unit
+  WiFi management), and Sweepr (AI-orchestrated ISP customer support). Plume is
+  the primary sponsor of OpenSync, an open-source software-defined-networking
+  framework for CPE and consumer networking devices that exposes northbound cloud
+  APIs. Backed by SoftBank Vision Fund.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plume.png
 url: https://raw.githubusercontent.com/api-evangelist/plume/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,58 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- WiFi
+- ISP
+- Smart Home
+- Network Intelligence
+- Cyber Security
+- SaaS
+- OpenSync
+- CPE
+- Connectivity
 apis: []
+common:
+- type: TrustCenter
+  url: security/plume-trust-center.yml
+- type: DomainSecurity
+  url: security/plume-domain-security.yml
+- type: Website
+  url: https://www.plume.com/
+- type: DeveloperPortal
+  url: https://www.opensync.io/developer
+- type: Documentation
+  url: https://opensync.atlassian.net/wiki/spaces/OCC/overview
+- type: Sandbox
+  url: https://www.opensync.io/get-started#the-opensync-sandbox
+- type: Support
+  url: https://support.plume.com/
+- type: GitHubOrganization
+  url: https://github.com/plume-design
+- type: Compliance
+  url: https://www.plume.com/trust
+- type: VulnerabilityDisclosure
+  url: security/plume-vulnerability-disclosure.yml
+- type: Security
+  url: https://vdp.plume.com
+- type: Lifecycle
+  url: lifecycle/plume-lifecycle.yml
+- type: StatusPage
+  url: https://status-gamma-prod.plumenet.io/
+- type: TermsOfService
+  url: https://www.plume.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.plume.com/legal/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

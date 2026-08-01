@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.plume.com/trust
+status_pages:
+- region: US cloud
+  url: https://status-gamma-prod.plumenet.io/
+- region: EU cloud
+  url: https://status-kappa-prod.plumenet.io/
+notes: >-
+  Plume operates regional cloud environments (US and EU) each with its own
+  status page, surfaced from the Plume trust page. No public versioning or
+  deprecation policy is published; OpenSync northbound cloud APIs are delivered
+  under a certified-partnership sandbox model rather than an open public API.

@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.plume.com/trust
+url: https://www.plume.com/trust
+certifications:
+- ISO/IEC 27001:2022
+- ISO/IEC 27701:2019
+- Data Privacy Framework
+- GDPR
+certificate_verification:
+- standard: ISO/IEC 27001:2022
+  url: https://certchecker.dnv.com/certificate/v0/C849792
+- standard: ISO/IEC 27701:2019
+  url: https://certchecker.dnv.com/certificate/v0/C849791
+evidence:
+- source: https://www.plume.com/trust
+  keywords:
+  - trust center
+  - iso 27001
+  - iso 27701
+  - data privacy framework
+  - gdpr
