@@ -10,6 +10,17 @@ description: >-
   the primary sponsor of OpenSync, an open-source software-defined-networking
   framework for CPE and consumer networking devices that exposes northbound cloud
   APIs. Backed by SoftBank Vision Fund.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
