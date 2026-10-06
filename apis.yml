@@ -42,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Enterprise
@@ -69,6 +69,10 @@ tags_raw:
 - Connectivity
 apis: []
 common:
+- url: https://www.plume.com/newsroom
+  type: Blog
+- url: https://www.plume.com/newsroom.rss
+  type: BlogRSS
 - type: TrustCenter
   url: security/plume-trust-center.yml
 - type: DomainSecurity
